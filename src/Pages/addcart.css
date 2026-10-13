@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+ background-color: rgb(239, 225, 225);
+}
+
+.addcart-container{
+    width: 100%;
+  padding-top: 40px;
+
+}
+
+/* Main Content */
+
+.addcart-content{
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Heading */
+
+.bag-text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+}
+
+.shipping-text{
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Product Box */
+
+.addcart-deatils{
+    width: 100%;
+   
+    margin-top: 30px;
+    padding: 35px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.img-addcart{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.img-addcart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-addcart{
+    flex: 1;
+}
+
+.addcrtpro-name{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.addcart-price{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.addcart-quantity{
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.addcart-checkout{
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #111;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.addcart-checkout:hover{
+    background: #000;
+}
+.important-text{
+    margin-top: 30px;
+
+    border: 1px solid hsl(0, 100%, 97%);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 22px;
+}
+
+.info-box:not(:last-child){
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.info-box img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.info-box h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d2d2d;
+    margin-bottom: 4px;
+}
+
+.info-box p{
+    font-size: 14px;
+    color: #6b6b6b;
+    line-height: 1.5;
+}
+.total-price{
+    font-size: 20px;
+    color: #050505;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+/* Mobile */
+
+@media (max-width:768px){
+
+    .addcart-content{
+        width: 95%;
+    }
+
+    .addcart-deatils{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .img-addcart{
+        width: 100%;
+        height: 280px;
+    }
+
+    .addcart-checkout{
+        width: 100%;
+    }
+}

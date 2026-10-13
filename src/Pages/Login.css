@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.login-container{
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#5b3a29,#2f1d14);
+}
+
+.login-container h1{
+    color:rgba(255,255,255,.9);
+    font-size:20px;
+    font-weight:400;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    margin-top:40px;
+}
+
+.login-container h2{
+    color:white;
+    font-size:52px;
+    font-family:Georgia, serif;
+    margin-bottom:35px;
+}
+
+.login-outer{
+    width:900px;
+    max-width:90%;
+
+    display:flex;
+
+    overflow:hidden;
+    border-radius:20px;
+
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+.login-form{
+    width:55%;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:45px;
+
+    background:white;
+}
+
+.login-form label{
+    margin-bottom:8px;
+    margin-top:18px;
+
+    font-size:15px;
+    font-weight:600;
+}
+
+.login-form input{
+    height:45px;
+
+    border:1px solid #ccc;
+    border-radius:8px;
+
+    padding:0 15px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+.login-form input:focus{
+    border:1px solid #6f4e37;
+}
+
+.forgot{
+    margin-top:18px;
+    color:#6f4e37;
+    cursor:pointer;
+    font-size:14px;
+}
+
+#login{
+    margin-top:25px;
+
+    height:45px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#6f4e37;
+    color:white;
+
+    font-size:17px;
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#login:hover{
+    background:#533626;
+}
+
+.login-text{
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px;
+
+   
+
+    color:white;
+    text-align:center;
+}
+
+.login-text h2{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.login-text p{
+    line-height:28px;
+    margin-bottom:30px;
+    font-size:16px;
+}
+
+
+.right-login{
+     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    background: linear-gradient(135deg,#6f4e37,#4b2d20);
+}
+
+
+
+
+
+
+.signup-btn{
+    width:170px;
+    height:45px;
+
+    border:2px solid white;
+    border-radius:30px;
+
+    background:transparent;
+    color:white;
+
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.signup-btn:hover{
+    background:white;
+    color:#6f4e37;
+}
+.error-login{
+    width: 80%;
+   height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.error-login h3{
+    font-size: 18px;
+font-weight: bolder;
+color:red;
+padding: 10px;
+border: 1px solid #fff9f9;
+border-radius: 20px;
+}
+@media (max-width:767px){
+
+    .login-container{
+        width:100%;
+        min-height:100vh;
+        padding:20px 15px;
+    }
+
+    .login-container h1{
+        font-size:14px;
+        letter-spacing:2px;
+        margin-top:10px;
+        text-align:center;
+    }
+
+    .login-container h2{
+        font-size:30px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+
+    .login-outer{
+        width:100%;
+        max-width:380px;
+        display:flex;
+        flex-direction:column;
+        border-radius:18px;
+        overflow:hidden;
+    }
+
+    .login-form{
+        width:100%;
+        padding:25px 20px;
+    }
+
+    .login-form label{
+        font-size:14px;
+        margin-top:12px;
+    }
+
+    .login-form input{
+        height:42px;
+        font-size:14px;
+    }
+
+    .forgot{
+        font-size:13px;
+        margin-top:12px;
+    }
+
+    #login{
+        width:100%;
+        height:45px;
+        margin-top:20px;
+        font-size:15px;
+    }
+
+    .right-login{
+        width:100%;
+        padding:30px 20px;
+    }
+
+    .login-text{
+        padding:0;
+    }
+
+    .login-text h2{
+        font-size:24px;
+        margin-bottom:12px;
+    }
+
+    .login-text p{
+        font-size:14px;
+        line-height:22px;
+        margin-bottom:20px;
+    }
+
+    .signup-btn{
+        width:160px;
+        height:42px;
+        font-size:14px;
+    }
+
+    .error-login{
+        width:100%;
+        height:auto;
+        padding:10px 0;
+    }
+
+    .error-login h3{
+        width:100%;
+        font-size:14px;
+        text-align:center;
+        padding:8px;
+    }
+}
