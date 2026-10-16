@@ -97,7 +97,7 @@
 
     .heading-latest h1{
         font-size: 1.7rem;
-        padding: 10px;
+        padding: 5px;
     }
 
     .heading-latest p{
@@ -116,7 +116,7 @@
     }
 
     .card{
-        width: 60%;
+        width: 48%;
         height: 170px;
         border-radius: 8px;
         overflow: hidden;
