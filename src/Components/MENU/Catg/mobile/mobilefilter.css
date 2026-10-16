@@ -62,5 +62,27 @@
     .filter-options option{
         color:#333;
     }
+ .clear{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        margin-top:10px;
+    }
 
+    .clear button{
+        width:90px;
+        height:35px;
+        border:none;
+        border-radius:20px;
+  background: none;
+        color:white;
+        font-size:12px;
+        cursor:pointer;
+        transition:0.3s;
+    }
+
+    .clear button:active{
+        transform:scale(0.95);
+        background-color:#555;
+    }
 }
