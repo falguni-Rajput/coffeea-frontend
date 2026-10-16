@@ -4,7 +4,7 @@ import "./Bigmenu.css";
 import Header from "../Header/Header";
 import Catg from "./Catg/catg.jsx";
 import Filter from "./filter/Filter.jsx";
-import Mobilefilter from "./mobile/mobilefilter.jsx";
+import Mobilefilter from './Catg/mobile/mobilefilter.jsx';
 import { useContext } from 'react';
 import { MyCards } from '../../context/Productcontext.jsx';
 function Bigmenu() {
