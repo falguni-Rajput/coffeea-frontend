@@ -41,7 +41,15 @@ function Mobilefilter() {
   <option value="500">Under ₹500</option>
 </select>
 
-
+<div className='clear'>
+<button onClick={()=>{
+  setctg("");
+    setPrice("");
+    setRating("");
+   
+  setInputPrice("")
+}}>clear filter</button>
+</div>
       </div>
     </div>
   )
