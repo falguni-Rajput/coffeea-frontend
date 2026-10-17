@@ -40,7 +40,7 @@ function Order() {
       try{
 
 
-        const orderreq = await fetch(`${API_URL}//orderpage/${id}`,{
+        const orderreq = await fetch(`${API_URL}/orderpage/${id}`,{
 
           method:"GET",
 
