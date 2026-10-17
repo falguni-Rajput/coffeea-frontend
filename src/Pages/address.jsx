@@ -6,7 +6,8 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 function Address() {
-
+  /* --------------------- API Base URL --------------------- */
+  const API_URL = import.meta.env.VITE_API_URL;
   /* --------------------- Get order/cart id from URL --------------------- */
   const { id } = useParams();
 
