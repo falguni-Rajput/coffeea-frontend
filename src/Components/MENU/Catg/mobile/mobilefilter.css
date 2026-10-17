@@ -10,14 +10,18 @@
 }
 
 
+
 @media(max-width:767px){
 
     .filtermobile-conatiner{
+
         width:100%;
         display:flex;
         justify-content:center;
-        padding:10px;
+        padding:12px 10px;
+
     }
+
 
 
     .filter-options{
@@ -25,64 +29,105 @@
         width:100%;
         display:flex;
         align-items:center;
-        gap:8px;
+        gap:10px;
 
-        padding:8px;
+        padding:10px;
+
         border-radius:12px;
 
         box-shadow:0 4px 12px rgba(0,0,0,0.15);
+
+        flex-wrap:wrap;
     }
+
 
 
     .filter-options select{
 
         flex:1;
-        min-width:0;
 
-        height:35px;
+        min-width:90px;
+
+        height:42px;
 
         border:none;
+
         outline:none;
 
-        border-radius:8px;
+        border-radius:10px;
 
         background:transparent;
 
         color:#333;
 
-        font-size:12px;
+        font-size:14px;
+
         font-weight:500;
 
-        padding:0 5px;
+        padding:0 10px;
 
         box-shadow:0 2px 6px rgba(0,0,0,0.1);
+
     }
+
 
 
     .filter-options option{
+
         color:#333;
     }
- .clear{
-        display:flex;
-        justify-content:center;
+
+
+
+
+    .clear{
+
         width:100%;
-        margin-top:10px;
+
+        display:flex;
+
+        justify-content:center;
+
+        margin-top:5px;
+
     }
+
+
+
 
     .clear button{
-        width:90px;
-        height:35px;
+
+        width:100px;
+
+        height:40px;
+
         border:none;
+
         border-radius:20px;
-  background: none;
+
+        background:none;
+
         color:white;
-        font-size:12px;
+
+        font-size:14px;
+
+        font-weight:500;
+
         cursor:pointer;
+
         transition:0.3s;
+
     }
 
+
+
+
     .clear button:active{
+
         transform:scale(0.95);
+
         background-color:#555;
+
     }
+
 }
